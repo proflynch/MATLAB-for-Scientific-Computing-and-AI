@@ -1,4 +1,4 @@
-# MATLAB for Scientific Computing/AI
+# MATLAB for Scientific Computing and AI
 
 GitHub Repository for the CRC Press book: 
 
