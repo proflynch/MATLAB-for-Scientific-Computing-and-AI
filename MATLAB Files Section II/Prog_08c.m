@@ -2,12 +2,12 @@
 % Network routing and path optimisation.
 % Adjacency matrix, 0 means no direct connection.
 G=[ 0 2 0 0 5 0 0;
-    2 0 4 0 0 0 0;
+    2 0 4 4 0 0 0;
     0 4 0 1 0 7 0;
-    0 0 1 0 3 2 0;
+    0 4 1 0 3 2 2;
     5 0 0 3 0 0 6;
     0 0 7 2 0 0 1;
-    0 0 0 0 6 1 0 ];
+    0 0 0 2 6 1 0];
 nodes={'A','B','C','D','E','F','G'};
 n=size(G,1);
 source=1;    % Node A.
